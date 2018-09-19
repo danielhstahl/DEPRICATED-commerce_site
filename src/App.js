@@ -71,9 +71,9 @@ const App = () => (
         </p>
       </div>
       <div style={{ ...standardPadding, ...divLight }} id="features">
-        <h2>Option Pricing Models</h2>
+        <h1>Option Pricing Models</h1>
         <p>
-          Our models are the most sophisticated in the industry. Our computer
+          Our models are the most sophisticated in the industry. Our software
           engineering is top notch.
         </p>
         <ul>
