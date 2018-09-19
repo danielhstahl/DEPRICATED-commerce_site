@@ -87,7 +87,12 @@ const App = () => (
             implied density, value at risk, and expected shortfall.
           </li>
         </ul>
-        <p>For more information on the models, see</p>
+        <p>
+          For more information on the models, see the{' '}
+          <a href="/OptionCalculation.pdf">summary documentation</a> and the
+          detailed{' '}
+          <a href="/OptionCalibration.pdf">calibration documentation</a>
+        </p>
       </div>
       <div style={divDark} id="pricing">
         Pricing
