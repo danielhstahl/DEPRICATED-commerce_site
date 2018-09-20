@@ -1,63 +1,18 @@
 import React from 'react'
-import { Layout, Menu } from 'antd'
+import { Layout } from 'antd'
 //import ScrollableAnchor from 'react-scrollable-anchor'
 //import Scrollchor from 'react-scrollchor'
 import './App.css'
 import 'antd/dist/antd.css'
-const { Header, Content, Footer } = Layout
-const menuStyle = { lineHeight: '64px' }
+const { Content, Footer } = Layout
 const standardLight = '#fff'
 const standardDark = '#001529'
 const divDark = { background: standardDark, height: '100vh' }
 const divLight = { background: standardLight, height: '100vh' }
-const headerStyles = {
-  background: standardLight,
-  position: 'fixed',
-  zIndex: 1,
-  width: '100%'
-}
+
 const standardPadding = { padding: 100 }
-/*
-const sections=[
-  {
-    id:'home',
-    label:'Home',
-    component:()=>
-  },
-  {
-    id:'features',
-    label:'Features',
-    component:()=>
-  },
-  {
-    id:'pricing',
-    label:'Pricing',
-    component:()=>
-  },
-  {
-    id:'about',
-    label:'About',
-    component:()=>
-  }
-]
-
-const SwitchComponent=({match, location})=>{
-
-  switch(match.params.pageLocation){
-    case 
-  }
-}
-*/
 const App = () => (
   <Layout>
-    {/*<Header style={headerStyles}>
-          <div className="logo" />
-          <Menu mode="horizontal" defaultSelectedKeys={['1']} style={menuStyle}>
-            <Menu.Item key="1"><Scrollchor to='#features'>Features</Scrollchor></Menu.Item>
-            <Menu.Item key="2"><Scrollchor to='#pricing'>Pricing</Scrollchor></Menu.Item>
-            <Menu.Item key="3"><Scrollchor to='#about'>About</Scrollchor></Menu.Item>
-          </Menu>
-</Header>*/}
     <Content>
       <div style={divDark} id="home">
         <h1 style={{ color: standardLight, ...standardPadding }}>
