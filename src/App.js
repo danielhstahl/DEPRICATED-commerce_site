@@ -44,9 +44,13 @@ const App = () => (
         </ul>
         <p>
           For more information on the models, see the{' '}
-          <a href="/OptionCalculation.pdf">summary documentation</a> and the
-          detailed{' '}
-          <a href="/OptionCalibration.pdf">calibration documentation</a>
+          <a href={`${process.env.PUBLIC_URL}/OptionCalculation.pdf`}>
+            summary documentation
+          </a>{' '}
+          and the detailed{' '}
+          <a href={`${process.env.PUBLIC_URL}/OptionCalibration.pdf`}>
+            calibration documentation
+          </a>
         </p>
       </div>
       <div style={divDark} id="pricing">
