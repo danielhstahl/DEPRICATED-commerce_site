@@ -10,6 +10,9 @@ branches:
 script:
   - npm test -- --coverage
   - npm run build
+  - cd src
+  - wget https://github.com/phillyfan1138/option_price_faas/releases/download/v8/openapi.yml
+  - cd ..
   - cd build
   - wget https://github.com/phillyfan1138/fang_oost_cal_charts/raw/master/docs/OptionCalculation.pdf
   - wget https://github.com/phillyfan1138/fang_oost_cal_charts/raw/master/docs/OptionCalibration.pdf
